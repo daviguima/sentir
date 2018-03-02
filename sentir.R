@@ -582,7 +582,7 @@ pall = ggplot(test, aes(fc2016)) +
   geom_histogram(binwidth = 1) +
   scale_y_continuous(limits = c(0, 20))+
   scale_x_continuous(limits = c(0, 50))+
-  labs(y = 'Frequência',
+  labs(y = 'FrequÃªncia',
        x = 'Focos de calor') +
   annotate("text", x = 40, y = 15, size = 7, label = "p = n/a")
 #____ p < 0.1 
@@ -590,7 +590,7 @@ p01 = ggplot(testp01, aes(fc2016)) +
   geom_histogram(binwidth = 1) +
   scale_y_continuous(limits = c(0, 20))+
   scale_x_continuous(limits = c(0, 50))+
-  labs(y = 'Frequência',
+  labs(y = 'FrequÃªncia',
        x = 'Focos de calor') +
   annotate("text", x = 40, y = 15, size = 7, label = "p < 0.1")
 #____ p < 0.05 
@@ -598,7 +598,7 @@ p005 = ggplot(testp005, aes(fc2016)) +
   geom_histogram(binwidth = 1) +
   scale_y_continuous(limits = c(0, 20))+
   scale_x_continuous(limits = c(0, 50))+
-  labs(y = 'Frequência',
+  labs(y = 'FrequÃªncia',
        x = 'Focos de calor') +
   annotate("text", x = 40, y = 15, size = 7, label = "p < 0.05")
 #____ p < 0.01 
@@ -606,7 +606,7 @@ p001 = ggplot(testp001, aes(fc2016)) +
   geom_histogram(binwidth = 1) +
   scale_y_continuous(limits = c(0, 20))+
   scale_x_continuous(limits = c(0, 50))+
-  labs(y = 'Frequência',
+  labs(y = 'FrequÃªncia',
        x = 'Focos de calor') +
   annotate("text", x = 40, y = 15, size = 7, label = "p < 0.01")
 
@@ -619,7 +619,7 @@ a =
   mutate(ano = substr(ano, 3, 7)) %>%
   
   ggplot(aes(focos)) +
-  labs(y = 'Frequência',
+  labs(y = 'FrequÃªncia',
        x = 'Focos de calor') +
   geom_histogram() +
   facet_wrap(~ano, scales = 'free_x'); a
