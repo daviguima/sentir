@@ -5,8 +5,8 @@ Authors:<br/>
 > David Franca - dvdgmf@gmail.com<br/>
 > Sacha Sianni - sacha@ortiz.com.br<br/>
 > Liana Anderson - liana.anderson@gmail.com<br/>
-<br/>
-latest updated in: **21 Sep 2017**<br/>
+
+Latest updated in: **21 Sep 2017**<br/>
 
 The current script **sentir.r** is divided in SIX major sections, just open the code and navigate it using CTRL+F to search for each section. Bellow is a summary copy-pasted from the code:<br/>
 ### :SEC01-GRID:
