@@ -2,9 +2,9 @@
 ### (S)imple lin(E)ar regressio(N) and (T)emporal-dynam(I)c fi(R)e model
 
 Authors:<br/>
-> David Franca - dvdgmf@gmail.com<br/>
-> Sacha Sianni - sacha@ortiz.com.br<br/>
-> Liana Anderson - liana.anderson@gmail.com<br/>
+> David Franca - dvdgmf (at) gmail.com<br/>
+> Sacha Sianni - sacha (at) ortiz.com.br<br/>
+> Liana Anderson - liana.anderson (at) gmail.com<br/>
 
 Latest updated in: **21 Sep 2017**<br/>
 
